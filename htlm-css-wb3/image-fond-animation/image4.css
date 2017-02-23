@@ -1,0 +1,24 @@
+div{
+    width: 730px;
+    height: 133px;
+    line-height: 0px; /*alignement dans la hauteur (du texte)*/
+    color: transparent;/*couleur transparente*/
+    font-size: 50px;
+    text-transform: uppercase; /*transformation du texte en majuscule*/
+    transition: 3s;
+}
+div:hover{
+    line-height: 210px;/*alignementdans la hauteur*/
+    color: red;
+}
+div img{
+    width: 500px;
+    height:500px;
+    text-align: center;
+    float: left; /*effet flottant (côte à côte)*/
+    margin: 0 15px;
+
+}
+p{
+    font-size: 15px;
+}

@@ -1,0 +1,11 @@
+body{
+    background: red url(image_2.jpg) no-repeat;
+    background-size: cover;
+}
+.contenu{
+    background: linear-gradient(#99696D,#A00F0E);
+
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}

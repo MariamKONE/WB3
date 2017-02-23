@@ -1,0 +1,17 @@
+body{
+    background: #000000 url(image_1.jpg) no-repeat;
+    background-size: cover;
+}
+.contenu{
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    background-color: rgba(247, 138, 84, 0.3);
+    margin: 200px auto 0 auto;
+}
+.contenu p, h1{
+    text-align: center;
+    position: relative;
+    top: 50%;
+
+}

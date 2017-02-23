@@ -1,0 +1,12 @@
+img{
+    height: 500px;/*hauteur*/
+    width:500px;/*largeur*/
+    margin: 50px 0; /*marge autour*/
+    transition: 10s;/*durée de la transition lorqu'on survole l'élément (hover)*/
+}
+img:hover{
+    height: 900px;
+    width:900px;
+
+}
+/*Survoler la souris*/

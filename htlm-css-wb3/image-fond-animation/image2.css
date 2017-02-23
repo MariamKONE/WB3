@@ -1,0 +1,17 @@
+div{margin: 100px 0 0 0}
+
+div img{
+    height: 100px;
+    width: 100px;
+    border: 5px solid #ccc;
+    float: left;
+    margin:15px;
+    transition: margin 0.5s;
+    border-radius: 50% 10% 100% 20%;
+}
+div img:hover{
+    margin-left:2px;
+}
+.clear{
+    clear:both;
+}
