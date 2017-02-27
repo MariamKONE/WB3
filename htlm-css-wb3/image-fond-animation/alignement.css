@@ -1,0 +1,14 @@
+p{
+    display: table; /*simule le comportement d'un tableau*/
+}
+span{
+    display: table-cell;/*représente les cellules d'un tableau*/
+}
+img{
+    margin: 0 20px 0 20px ;/* sens d'une aiguille d'une montre haut, droite, bas, gauche*/
+}
+/*margin/padding: haut/bas gauche/droite
+                    10px       7px; Cela représente 10px en haut et en bas et 7px à gauche et à droite
+margin/padding: 10px; lorsqu'il y une seule valeur cela représente tout le tour
+margin: marge à l'extérieur d'un bloc, d'un élément
+padding: marge à l'intérieur d'un bloc, d'un élément          */

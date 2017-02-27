@@ -1,0 +1,12 @@
+.taillefixe{
+    width: 1000px;
+    border: 2px solid #cd3d3d;
+
+}
+.taillevariable{
+    width: 100%;
+    border: 2px solid #369;
+
+}
+
+/*le pourentage c'est responsive*/
