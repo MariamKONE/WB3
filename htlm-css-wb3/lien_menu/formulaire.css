@@ -1,0 +1,9 @@
+label{
+    float: left;
+    width: 200px;
+    clear: both;
+
+}
+textarea{
+    resize: none; /* cela permet de redimensioner la fenêtre textarea*/
+}

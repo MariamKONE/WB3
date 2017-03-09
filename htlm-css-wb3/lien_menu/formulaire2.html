@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire 2</title>
+        <link rel="stylesheet" href="formulaire2.css">
+    </head>
+    <body>
+
+        <form method="post" action="">
+        <fieldset>
+            <legend><h4>Information</h4></legend>
+            <label for="nom">Nom</label><br></br>
+            <input type="text" id="nom" name="nom" value="tapez votre nom" disabled/><br></br>
+
+            <label for="prénom">Prénom</label><br></br>
+            <input type="text" id="prénom" name="prenom"><br></br>
+
+            <label for="telephone">Téléphone</label><br></br>
+            <input type="tel" pattern="[0-9]{10}" id="téléphone" name="téléphone" maxlength="10"/><br></br>
+
+            <label for="ville">Ville</label><br></br>
+            <input type="text" id="ville" name="ville" list="france"/><br></br>
+
+            <label for="cp">Code postal</label><br></br>
+            <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9"/><br></br>
+
+            <label for="adresse">Adresse</label><br></br>
+            <textarea id="adresse" name="adresse" rows="4" cols="20" placeholder="Adresse"></textarea><br></br>
+
+        </fieldset>
+
+
+        <fieldset class="profil">
+            <legend><h4>Date de Naissance</h4></legend>
+
+            <label for="jour">Jour</label>
+            <select id="jour">
+                <optgroup label="Semaine">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </optgroup>
+            </select><br></br>
+
+            <label for="Mois">Mois</label>
+            <select id="Mois">
+                <optgroup label="Mois">
+                    <option>Janvier</option>
+                    <option>Février</option>
+                    <option>Mars</option>
+                </optgroup>
+            </select><br></br>
+
+            <label for="année">Année</label>
+            <select id="année">
+                <optgroup label="année">
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                </optgroup>
+            </select><br></br>
+
+
+        </fieldset>
+
+        <div class=""></div>
+        <fieldset class="civil">
+            <legend><h4>Civilité</h4></legend>
+            <label for="choix">Homme</label>
+            <input type="radio" name="choix"><br></br>
+            <label for="choix">Femme</label>
+            <input type="radio" name="choix">
+        </fieldset>
+
+        <div class=""></div>
+
+
+        <fieldset class="info">
+            <legend><h4>Information Falcultatives</h4></legend>
+            <label for="adresse"><h4>Description<h4></label><br></br>
+            <textarea id="Description" name="Description" rows="5" cols="18" value="Description" placeholder="Description"></textarea><br></br>
+        </fieldset>
+
+        <input class="inscrire" type="submit" name="inscription" value="S'inscrire" text-justify="center;">
+
+        </form>
+    </body>
+</html>

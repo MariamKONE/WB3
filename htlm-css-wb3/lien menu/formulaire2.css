@@ -1,0 +1,38 @@
+body{
+    float: left;
+
+}
+label{
+    float: left;
+    width: 200px;
+    clear: both;
+
+
+}
+textarea{
+    resize: none; /* cela permet de redimensioner la fenêtre textarea*/
+}
+h4{
+    color: purple;
+}
+fieldset{
+    float: left;
+    margin: auto;
+
+}
+.info{
+    margin: auto;
+    float: left;
+    width: 277px;
+}
+.civil{
+    margin: auto;
+    float: left;
+    width: 277px;
+}
+.profil{
+    height: 152px;
+}
+.inscrire{
+    text-align: center;
+}

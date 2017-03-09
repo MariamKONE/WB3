@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire</title>
+        <link rel="stylesheet" href="formulaire.css">
+    </head>
+    <body>
+        <form method="post" enctype="">
+            <label for="pseudo">Pseudo</label>
+            <input type="text" id="pseudo" name="pseudo" required placeholder="mettez votre nom" required/><br></br>
+
+            <label for="mdp">Mot de passe</label>
+            <input type="password" id="mdp" name="mdp"><br></br>
+
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" value="tapez votre nom" disabled/><br></br>
+
+            <label for="prénom">Prénom</label>
+            <input type="text" id="prénom" name="prenom"><br></br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br></br>
+
+            <label for="avatar">Avatar</label>
+            <input type="file" id="avatar" name="avatar"><br></br>
+
+            <label for="pays">Pays</label>
+            <select id="pays">
+                <optgroup label="Europe">
+                    <option value="fr">France</option>
+                    <option value="it">Italie</option>
+                    <option value="es">Espagne</option>
+
+                </optgroup>
+            </select><br></br>
+
+            <label for="choix">Quel est votre fruit préféré?</label>
+            <p>
+            <input type="checkbox" name="choix">Kiwi
+            <input type="checkbox" name="choix">Banane
+            <input type="checkbox" name="choix">Mangue
+            </p>
+
+            <label for="ville">Ville</label>
+            <input type="text" id="ville" name="ville" list="france"/>
+            <datalist id="france">
+                <option>Paris</option>
+                <option>Marseille</option>
+                <option>Lyon</option>
+            </datalist><br></br>
+
+            <label for="cp">Code postal</label>
+            <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9"/><br></br>
+
+            <label for="adresse">Adresse</label>
+            <textarea id="adresse" name="adresse" rows="4" cols="20"></textarea><br></br>
+
+            <label for="datedenaissance">Date de naissance</label>
+            <input type="date" id="datedenaissance" name="datedenaissance"/><br></br>
+
+            <label for="jauge">Jauge</label>
+            <input type="range" min="25" max="50" value="26" id="jauge"/><br></br>
+
+            <label for="telephone">Téléphone</label>
+            <input type="tel" pattern="[0-9]{10}" id="téléphone" name="téléphone" maxlength="10"/><br></br>
+
+            <label for="recherche">Recherche</label>
+            <input type="text" id="recherche" pattern="[a-zA-Z0-9.-_]+" title="caractère autorisés: a-zA-Z0-9.-_" name="recherche"/><br></br>
+
+            <label for="couleur">Couleur</label>
+            <input type="color" id="couleur" name="couleur"/><br></br>
+
+            <label for="avatar">Avatar</label>
+            <input type="file" id="avatar" name="avatar" multiple/><br></br>
+
+            <input type="hidden" id="cache" name="cache"/><br></br>
+
+
+            <input type="submit" name="inscription" value="S'inscrire">
+            <input type="reset" name="efface" value="Recommencer">
+
+        </form>
+    </body>
+</htlm>

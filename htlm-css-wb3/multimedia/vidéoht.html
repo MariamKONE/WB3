@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vidéo</title>
+    </head>
+    <body>
+        <h1>cic.ogv</h1>
+        <video preload controls poster="cic.gif">
+            <source src="cic.ogv" type="video/ogg">
+        </video>
+
+        <h1>cic.webm</h1>
+        <video preload controls poster="cic.gif">
+            <source src="cic.webm"/>
+        </video>
+
+        <h1>cic.mp4</h1>
+        <video preload controls autoplay loop="3" poster="cic.gif">
+            <source src="cic.mp4"/>
+        </video>
+
+        <h1>cic</h1>
+        <video preload controls autoplay loop="3" poster="cic.gif">
+            <source src="cic.mp4" type="video/ogg"/>
+            <source src="cic.webm"/>
+            <source src="cic.mp4"/>
+        </video>
+    </body>
+</html>
+
+<!--lors du dernier exemple, nous démarrons avec une source rgv si le naviagteur ne peut pas lire ogv, il essayera de le lire avec les autres extension
+loop = répétition-->

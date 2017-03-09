@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: -1px;
+    text-decoration: none;
+
+}
+
+body{
+	font-family: 'Sansita', sans-serif;
+	font-size: 15px;
+}
+
+#conteneur{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header{
+
+	background: #F4F4F4;
+	height: 100px;
+}
+footer{
+	background: #F4F4F4;
+	height: 100px;
+	text-align: center;
+	font-size: 10px;
+	color: #000;
+	padding: 20px;
+}
+
+nav{
+	  width: 500px;
+	  text-align: center;
+	  margin: 0 auto;
+  }
+  nav a{
+	  display: inline-block;
+	  padding: 0 10px;
+	  color: black;
+  }
+  nav a:hover{
+	  background: #D2DEEC;
+	  border-radius: 10%;
+	  color: white;
+  }
+}
+span{
+    display: table-cell;/*représente les cellules d'un tableau*/
+}
+h2, dt, h3, .sous-titre{
+	color: #8AA8CA;
+}
+h3{
+	text-align: center;
+}
+label{
+    float: left;
+    width: 200px;
+    clear: both;
+}
+textarea{
+    resize: none; /* cela permet de redimensioner la fenêtre textarea*/
+}
+.topleft{
+    background: #F4F4F4;
+    width: 750px;
+    height: 60px;
+    float: left;
+}
+.topright{
+	color: #610B0B;
+    background: #F4F4F4;
+	text-align: right;
+    width: 250px;
+    height: 60px;
+    float: left;
+}
+.menu{
+    background: #F4F4F4;
+    width: 500px;
+    margin: 0 auto;
+}
+.top{
+    background: #F4F4F4;
+    width: 1000px;
+    height: 90px;
+	margin: 0 auto;
+}
+
+ul.competences{
+    list-style-type: none
+}
+    ul.competences li{
+        float: left;
+        margin: 15px;
+		margin-left:10px;
+        background: url(../siteCV/img/fleche.jpg) left center no-repeat;
+        padding: 0 0 0 20px;
+    }
+
+ul.experience li{
+	float: left;
+	margin: 1px;
+	padding: -1px
+}
+.zoneGauche{
+	/*background: red;*/
+	width: 600px;
+	height: 750px;
+	float:left;
+}
+
+.zonedroite{
+	/*background: blue;*/
+	width: 400px;
+	height: 750px;
+	float:left;
+}
+.bloc{
+    background: #fff;
+    width: 265px;
+    height: 155px;
+    margin: 10px;
+    margin-left: 130px;
+    float: right;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.contact{
+	background: #F4F4F4;
+	width: 260px;
+    height: 100px;
+    margin: 10px;
+    margin-left: 130px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+h5{
+	background: #F4F4F4;
+	border-bottom: 2px solid #000;
+	border-radius: 10px 10px 0 0;
+	text-align: center;
+}
+.clear{
+    clear: both;
+}
